@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #6b778d;
+	font-family: 'Arima Madurai', cursive;
+}
+
+#search_form{
+	
+	margin-top:10%;
+	
+	padding: 20px;
+	border-radius: 10px;
+	width: 360px;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 1px 2px 36px 2px rgba(0, 0, 0, .30);
+	}
+.form-label{
+	color: #fff;
+	text-transform: uppercase;
+	 font-weight: bold;
+	 font-size: 20px!important;
+}
+#search-input{
+	font-size: 15px!important;
+}
+
+
+button{
+	background: #99C624!important;
+	border-color: #99C624 !important;
+	width: 100%;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+button:hover {
+	color: #fff !important;
+	background: #FDD020 !important;
+	border-color: #FDD020!important; 
+	transition: all 0.4s ease 0s !important;
+}
+
+#app_container{
+	background: #263859;
+}
+#temp{
+	text-align: center;
+}
+
+#temp #temp-unit{
+	
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+#temp #temp-value{
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	color: #fff;
+}
+
+#climate{
+	
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+}
+
+#location{
+
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+}
+
+#temp-icon{
+	margin: 1rem;
+	width: 40%;
+	height: auto;
+}
+
+main{
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	width: 360px;
+	height: 400px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 1px 2px 36px 2px rgba(0, 0, 0, .30);
+
+}
